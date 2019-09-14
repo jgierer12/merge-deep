@@ -2,11 +2,11 @@
   "name": "@jgierer12/merge-deep",
   "description": "Recursively merge values in a javascript object. Forked to avoid webpack warnings.",
   "version": "3.1.0",
-  "homepage": "https://github.com/jonschlinkert/merge-deep",
+  "homepage": "https://github.com/jgierer12/merge-deep",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
-  "repository": "jonschlinkert/merge-deep",
+  "repository": "https://github.com/jgierer12/merge-deep",
   "bugs": {
-    "url": "https://github.com/jonschlinkert/merge-deep/issues"
+    "url": "https://github.com/jgierer12/merge-deep/issues"
   },
   "publishConfig": {
     "access": "public"
@@ -20,6 +20,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
+    "postpublish": "npm publish --ignore-scripts --@jgierer12:registry='https://registry.npmjs.org'",
     "test": "mocha"
   },
   "dependencies": {
