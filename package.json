@@ -1,7 +1,7 @@
 {
   "name": "@jgierer12/merge-deep",
   "description": "Recursively merge values in a javascript object. Forked to avoid webpack warnings.",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "homepage": "https://github.com/jgierer12/merge-deep",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "https://github.com/jgierer12/merge-deep",
